@@ -23,6 +23,5 @@ def now_serving(name)
   else
   puts "Currently serving: #{name}"
     katz_deli.shift
-
 end
 end
