@@ -12,7 +12,7 @@ puts current_line
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli==0 
+  if katz_deli==0
   katz_deli<< "Welcome, #{name}. You are number 1 in line."
 else
   katz_deli<<katz_deli.each_with_index do |name, index|
