@@ -18,11 +18,11 @@ katz_deli<< name
 end
 
 def now_serving(name)
-  if katz_deli.length> 0
-  puts "Currently serving: name"
-
-else
+  katz_deli.length> 0
+  puts "Currently serving: #{name}"
+  katz_deli.shift
+end
   puts "There is nobody waiting to be served!"
 end
-katz_deli.shift
+
 end
