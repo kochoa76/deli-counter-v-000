@@ -18,10 +18,10 @@ katz_deli<< name
 end
 
 def now_serving(name)
-  if katz_deli.empty?
+  if katz_deli== []
     puts "There is nobody waiting to be served!"
   else
-  puts "Currently serving: katz_deli.first"
+  puts "Currently serving: katz_deli.first()"
     katz_deli.shift
 end
 end
