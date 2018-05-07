@@ -19,3 +19,4 @@ else
  puts "Welcome, #{name}. You are number #{index+1} in line."
   end
 end
+end
